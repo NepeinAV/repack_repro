@@ -17,6 +17,8 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
+import camelcaseKeys from 'camelcase-keys';
+
 const Section = ({children, title}) => {
   const isDarkMode = useColorScheme() === 'dark';
   return (
